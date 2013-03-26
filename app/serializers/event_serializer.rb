@@ -1,5 +1,5 @@
 class EventSerializer < ActiveModel::Serializer
-  attributes :id, :name, :url
+  attributes :id, :name, :dateof, :description, :url
 
   def url
 	event_url(object)  	
