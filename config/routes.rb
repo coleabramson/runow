@@ -1,4 +1,6 @@
 Runow::Application.routes.draw do
+  resources :groups, except: :edit
+
   resources :events, except: :edit
 
   # The priority is based upon order of creation:
